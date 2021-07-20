@@ -20,5 +20,5 @@ questions =  [
     {"id": 18, "question": "The wiki is more important than the server.", "effects": {"right": -0.5}},
     {"id": 19, "question": "Measures to control disruptive behavior are usually bad.", "effects": {"strict": -0.5}},
     {"id": 20, "question": "People I dislike should be banned, even if they haven't violated any rules.", "effects": {"right": -0.5}},
-    {"id": 21, "question": "Outsiders who are not active on the wki should not have any influence on major wiki decisions.", "effects": {"right": -1}}
+    {"id": 21, "question": "Outsiders who are not active on the wiki should not have any influence on major wiki decisions.", "effects": {"right": -1}}
 ];
