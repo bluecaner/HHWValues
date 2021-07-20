@@ -18,6 +18,7 @@ questions =  [
     {"id": 16, "question": "Random foreign language words should not be allowed in #casual-chat.", "effects": {"strict": 1}},
     {"id": 17, "question": "Former moderators who ruined their reputation should be allowed a chance of being promoted to staff later on.", "effects": {"strict": -1}},
     {"id": 18, "question": "The wiki is more important than the server.", "effects": {"right": -0.5}},
-    {"id": 19, "question": "\"Cooperization\" and any measures to control disruptive behavior are bad.", "effects": {"strict": -1}},
-    {"id": 20, "question": "People I dislike should be banned, even if they haven't violated any rules.", "effects": {"right": -0.5}}
+    {"id": 19, "question": "Measures to control disruptive behavior are usually bad.", "effects": {"strict": -0.5}},
+    {"id": 20, "question": "People I dislike should be banned, even if they haven't violated any rules.", "effects": {"right": -0.5}},
+    {"id": 21, "question": "Outsiders who are not active on the wki should not have any influence on major wiki decisions.", "effects": {"right": -1}}
 ];
