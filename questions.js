@@ -79,9 +79,9 @@ questions = [{
   }
 }, {
   "id": 13,
-  "question": "Memes and GIFs should be allowed in #casual-chat.",
+  "question": "Memes should be allowed in #casual-chat.",
   "effects": {
-    "strict": -1
+    "strict": -0.5
   }
 }, {
   "id": 14,
@@ -151,6 +151,12 @@ questions = [{
   }
 }, {
   "id": 25,
+  "question": "GIFs should be allowed in #casual-chat.",
+  "effects": {
+    "strict": -0.5
+  }
+}, {
+  "id": 26,
   "question": "Hurricane Idol rounds should be decided by HHW users who are eligible to vote, and not the judges.",
   "effects": {
     "right": -1
