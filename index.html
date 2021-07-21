@@ -54,7 +54,7 @@
   <h1 class="title">HHWValues</h1>
   <hr>
   <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
-  <img src="compass.png" class="center">
+  <img src="" id="banner">
 
   <h2>What is HHWValues?</h2>
   <p>HHWValues is a political compass test that is based on the Hypothetical Hurricanes Wiki community. It is a fork of the <a href="https://github.com/SapplyValues/SapplyValues.github.io">SapplyValues</a> GitHub repository. You will be presented by
@@ -72,5 +72,21 @@
   <script type="application/javascript" src="questions.js"></script>
   <script type="text/javascript">
     document.getElementById("numOfQuestions").innerHTML = questions.length;
+
+    window.onload = function() {
+      var background = new Image();
+      background.onload = function() {
+        var c = document.createElement("canvas");
+        c.width = 1850;
+        c.height = 1300;
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#EEEEEE"
+        ctx.fillRect(0, 0, 1850, 1300);
+        ctx.drawImage(background, 0, 0);
+
+        document.getElementById("banner").src = c.toDataURL();
+      }
+      background.src = "./compass.png";
+    }
   </script>
 </body>
