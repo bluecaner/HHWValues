@@ -5,7 +5,7 @@
   <link rel="icon" type="x-icon" href="icon.png">
   <link rel="shortcut icon" type="x-icon" href="icon.png">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="application/javascript" src="questions.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
@@ -28,7 +28,6 @@
     var answers = new Object(); // Store user's answers
     var qn = 0; // Current question order
 
-
     // Populate questionsObject
 
     var questionsObject = new Object(); // Question objects with ID keys
@@ -37,7 +36,6 @@
     function populateQO(value) {
       questionsObject[value['id']] = value
     }
-
 
     // Populate & shuffle questionsOrder
 
@@ -63,8 +61,6 @@
       $("#question-text").html(questionsObject[questionsOrder[qn]].question);
       $("#question-number").html("Question " + (qn + 1) + " of " + (questionsOrder.length));
 
-
-
       if (jQuery.isEmptyObject(answers)) {
         $('#back_button').hide()
         $('#back_button_off').show()
@@ -73,7 +69,6 @@
         $('#back_button_off').hide()
       }
     }
-
 
     // Next question
 
@@ -92,7 +87,6 @@
       }
     }
 
-
     // Previous question
 
     function prev_question() {
@@ -108,13 +102,11 @@
       init_question();
     }
 
-
     // RESULTS
 
     function results() {
 
       window.sessionStorage.answers = JSON.stringify(answers);
-
 
       // Calculate final results
       pct = percentageCalculation();
@@ -132,10 +124,9 @@
         }
       }
       //return;
-      location.href = ((window.location.hostname == "sapplyvalues.github.io") ? `feedback.html` : `results.html`) + args
+      location.href = ((window.location.hostname == "strawberrymaster.github.io/HHWValues") ? `feedback.html` : `results.html`) + args
 
     }
-
 
     // Calculate percentage
 
