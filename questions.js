@@ -3,7 +3,7 @@ questions =  [
     {"id": 1, "question": "HHW should strongly encourage, or even require, users to support \"basin neutrality\".", "effects": {"right": -1}},
     {"id": 2, "question": "Staff members that do not moderate the chat frequently enough should be demoted.", "effects": {"right": -1}},
     {"id": 3, "question": "COPPA should not be followed.", "effects": {"right": -1}},
-    {"id": 4, "question": "Measures like staff reductions and other role changes are benefitial to the community.", "effects": {"strict": -0.5, "right": -1"}},
+    {"id": 4, "question": "Measures like staff reductions and other role changes are benefitial to the community.", "effects": {"right": -1"}},
     {"id": 5, "question": "The wiki leader/server owner should be able to make decisions by themself without a consensus.", "effects": {"strict": 1}},
     {"id": 6, "question": "Complaining and/or ranting about tropical cyclones or weather is childish behavior and should be punished.", "effects": {"right": -1}},
     {"id": 7, "question": "The category difference between a 155 mph and 160 mph hurricane is important.", "effects": {"right": 1}},
