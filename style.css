@@ -74,6 +74,13 @@ a {
   font-family: inherit;
 }
 
+img.center {
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    min-width: 500pt;
+}
+
 .selection {
   background-color: #4caf50;
   font-family: 'Montserrat', sans-serif;
@@ -125,13 +132,6 @@ a {
   cursor: pointer;
 }
 
-img.center {
-  display: block;
-  margin: 1em auto;
-  width: 50%;
-  min-width: 500pt;
-}
-
 .button {
   background-color: #2196f3;
   font-family: 'Montserrat', sans-serif;
@@ -147,6 +147,50 @@ img.center {
   font-size: 24pt;
   margin: -2px auto;
   cursor: pointer;
+}
+
+.button:hover, .button:focus {
+  background: #1687e0;
+}
+
+.stronglyAgree {
+  background: #1b5e20;
+}
+
+.stronglyAgree:hover, .stronglyAgree:focus {
+  background: #154a19;
+}
+
+.agree {
+  background: #4caf50;
+}
+
+.agree:hover, .agree:focus {
+  background: #29942e;
+}
+
+.neutral {
+  background: #949494;
+}
+
+.neutral:hover, .neutral:focus {
+  background: #656565;
+}
+
+.disagree {
+  background: #f44336;
+}
+
+.disagree:hover, .disagree:focus {
+  background: #d6271a;
+}
+
+.stronglyDisagree {
+  background: #b71c1c;
+}
+
+.stronglyDisagree:hover, .stronglyDisagree:focus {
+  background: #a00e0e;
 }
 
 .green_button {
